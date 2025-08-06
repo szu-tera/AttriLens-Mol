@@ -609,7 +609,7 @@ def process_smiles_data(json_file_path):
 
 # Placeholder JSON path, please update with actual file
 json_file_path = ""
-processed_dataset = process_smiles_data("")
+processed_dataset = process_smiles_data(json_file_path)
 print(processed_dataset[0])
 
 
@@ -651,4 +651,5 @@ trainer = GRPOTrainer(
     args=training_args,
     train_dataset=processed_dataset,
 )
+
 trainer.train(resume_from_checkpoint=False)
