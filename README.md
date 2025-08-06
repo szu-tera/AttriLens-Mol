@@ -37,23 +37,24 @@ pip install -r requirements.txt
 ## 🚀 Usage
 
 ### 🔧 1. Pretrain AttriLens-Mol
+```bash
 python AttriLens_train.py # Before running the script, edit line 611 and 639 in the file:
                            # json_file_path = ""
                            # output_dir=""
                            # and set it to your data file path and ckpt output file.
-
+```
 
 ### 🌲 2. Random Forest Building
 cd Random Forest
+```bash
 python Random Forest_{task}.py # Before running the script, edit line 13-15 in the file:
                                # train_df = pd.read_csv('bace_gen_train.csv')
                                # valid_df = pd.read_csv('bace_gen_valid.csv')
                                # test_df = pd.read_csv('bace_gen_test.csv')
-
+```
 
 ## 📜 More Data
-
-We will release all training data and preprocessing scripts once the paper is accepted.  
-Stay tuned and ⭐ star this repo to get notified!
-
+```bash
+We will release all training data and preprocessing scripts once the paper is accepted. Stay tuned and ⭐ star this repo to get notified!
+```
 
