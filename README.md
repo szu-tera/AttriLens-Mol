@@ -21,7 +21,9 @@ This repository introduces **AttriLens-Mol**, an **attribute-guided reinforcemen
 ├── Random Forest/ # Script for building random forest models for different tasks
 ├── AttriLens_train.py / # Pre-training script for AttriLens-Mol
 ├── requirements.txt / # requirements for env
+```
 
+---
 ## 🛠️ Installation
 
 Clone this repository and install dependencies:
