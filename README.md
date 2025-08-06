@@ -48,9 +48,9 @@ python AttriLens_train.py # Before running the script, edit line 611 and 639 in 
 cd Random Forest
 ```bash
 python Random Forest_{task}.py # Before running the script, edit line 13-15 in the file:
-                               # train_df = pd.read_csv('bace_gen_train.csv')
-                               # valid_df = pd.read_csv('bace_gen_valid.csv')
-                               # test_df = pd.read_csv('bace_gen_test.csv')
+                               # train_df = pd.read_csv('')
+                               # valid_df = pd.read_csv('')
+                               # test_df = pd.read_csv('')
 ```
 
 ## 📜 More Data
