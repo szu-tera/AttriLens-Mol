@@ -53,8 +53,4 @@ python Random Forest_{task}.py # Before running the script, edit line 13-15 in t
                                # test_df = pd.read_csv('')
 ```
 
-## 📜 More Data
-```bash
-We will release all training data and preprocessing scripts once the paper is accepted. Stay tuned and ⭐ star this repo to get notified!
-```
 
